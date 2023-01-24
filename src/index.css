@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+  --primary: #FDBE00;
+  --lightGray: #F7F7F7;
+  --gray: #EDEDED;
+  --darkGray: #B2B2B2;
+  --black: #2A2A2A;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color:var(--lightGray);
+  margin: 0;
+}
